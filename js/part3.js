@@ -1,6 +1,6 @@
 'use strict';
 
-let number = prompt(`Введите число:
+let number = prompt(`Введите число:         
    `, ``);
 
 console.log(number);
@@ -32,3 +32,10 @@ function checkNumber(number) {
     return [isPryme,isEven,isDividedTen];
 }
 console.log (checkNumber(number));
+
+//если надо как на примере чтобы работало то просто комментим
+// let number = prompt(`Введите число:
+//    `, ``);
+//
+// console.log(number);
+// и пишем число в console.log (checkNumber(-10));
